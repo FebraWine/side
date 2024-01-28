@@ -1,0 +1,162 @@
+body {
+ margin: 0;
+ padding: 0;
+}
+
+.head {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  min-width: 320px;
+  height: 88px;
+}
+
+
+@media (max-width: 767px) {
+  .header_contacts
+  .header_call,
+  .header_chat,
+  .header_profile,
+  .head_divider--one {
+    display: none;
+    margin-right: 0;
+  }
+  
+  .headerRightTwo {
+    padding-left: 12px;
+  }
+  
+  .headerLeft_burger {
+    margin-right: 15px;
+  }
+
+}
+
+.headerRightTwo_repair {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header_call,
+.header_chat,
+.header_profile {
+  margin-right: 10px;
+}
+
+.header_contacts {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+
+
+.title_main {
+  width:288px; 
+  position: relative;
+  margin-left: 0;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight:bold;
+  font-family: 'TT Lakes Condensed';
+  
+}
+
+.title_main::before {
+   content: '';
+   position: absolute;
+   height: 40px;
+   background-color:#41F6D7 ;
+   padding:2px;
+   margin-left: -25px;
+   border-radius: 2px;
+}
+
+.headerPC {
+  background-color:#F8F8F8;
+}
+
+.title {
+  margin-left:25px;
+
+}
+
+.HeaderLeft_imgGroup {
+  margin-left:0px ;
+}
+
+.headerLeft_burger {
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border: none;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.header_btn {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  background-color:white ;
+
+}
+
+@media (min-width:767px) {
+
+.header_btn--divider::after {
+  content: '';
+   position: absolute;
+   width: 2px;
+   border-radius: 2px;
+   background-color: #EAEAEA;
+   height: 32px;
+   margin-left: 18px;
+   top: 20%;
+}
+
+}
+
+.header_btn--divider--right::before {
+  content: '';
+   position: absolute;
+   width: 2px;
+   border-radius: 2px;
+   background-color: #EAEAEA;
+   height: 32px;
+   margin-left: -10px;
+   top: 3%
+}
+
+.header_info {
+  margin-left: 16px;
+  position: relative;
+}
+
+.header_status {
+  margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
