@@ -13,19 +13,57 @@
     <link rel="stylesheet" href="./scss/style_navigation.css">
     <link rel="stylesheet" href="./scss/style_content.css">
     <link rel="stylesheet" href="./scss/style_headerPC.css">
+    <link rel="stylesheet" href="./scss/sryle_aside.css">
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
-  <body>
-       <header>
+  <body> 
+    <div class="wrapper"> 
+    <section>
         <div class="aside">
-          <div class="aside__close">
+          <div class="aside__left">
             <button type="button" class="header_btn"><img class="header_close" src="./img/close.png" alt=""></button>
             <img class="aside__logo"  src="./img/Group.png" alt="">
           </div>
-          <div class="aside__search">
+          <div class="aside__right">
             <button type="button" class="header_btn"><img class="header_search"  src="./img/search.png" alt=""></button>
            </div>
          </div>
-       </header>
+    </section>
+    <section>
+      <div class="main-manu">
+        <button type="button" class="manu__btn manu__btn--active">Ремонт техники</button>
+        <button type="button" class="manu__btn">Услуши и сервисы</button>
+        <button type="button" class="manu__btn">Корпоративным клиентам</button>
+        <button type="button" class="manu__btn">Продавцам техники</button>
+        <button type="button" class="manu__btn">Пертнерам</button>
+        <button type="button" class="manu__btn">Производителям</button>
+        <button type="button" class="manu__btn">Наши сервисные центры</button>
+        <button type="button" class="manu__btn">Контакты</button>
+      </div>
+
+      <div class="contacts">
+        <div class="contacts__icon">
+          <button type="button" class="manu__btn manu__btn--margin"><img src="./img/header_right/call.png" alt=""></button>
+          <button type="button" class="manu__btn manu__btn--margin"><img src="./img/header_right/chat.png" alt=""></button>
+          <button type="button" class="manu__btn manu__btn--margin"><img src="./img/header_right/profile.png"" alt=""></button>
+        </div>
+         <div class="contacts__mail">
+          <p>
+            mail@cps.com
+          </p>
+         </div>
+         <div class="contacts__phone">
+          <p>
+             <strong>8 800 890 8900</strong>
+          </p>
+        <div class="contacts__lang">
+             <a class="contacts__lang_el--active" href="#">RU</a>
+             <a href="#">EN</a> 
+             <a href="#">CH</a>
+            </div>
+         </div>
+      </div>
+    </section>
+  </div>
   </body>
 </html>
