@@ -126,5 +126,13 @@ a:hover > {
     cursor: pointer;
 }
 
+.manu__btn--fitler:hover {
+    color:aqua;
+    transition: 0.5s;
+}
+
+
+
+
 
 
