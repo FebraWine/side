@@ -6,7 +6,13 @@ body {
 
 a {
     text-decoration: none;
-    color: #1B1C21
+    color: #1B1C21;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+a:hover > {
+    opacity: 0.5;
 }
 
 .wrapper {
@@ -57,6 +63,12 @@ a {
     background-color: white;
     border: none;
 }
+
+.manu__btn--anima {
+    opacity: 1;
+    transition: 0.5s;
+}
+
 
 .manu__btn--active {
     border-left: 4px solid #41F6D7;
@@ -110,8 +122,8 @@ a {
 }
 
 .manu__btn:hover {
-   opacity: 0.5;
-   cursor: pointer;
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 
