@@ -11,6 +11,12 @@ a {
     transition: 0.5s;
 }
 
+address {
+    font-style: normal;
+    text-decoration: none;
+    font-variant-numeric:normal
+}
+
 a:hover > {
     opacity: 0.5;
 }
@@ -48,7 +54,7 @@ a:hover > {
   margin-right:20px;
 }
 
-.manu__btn {
+.aside__btn {
     display: block;
     height: 50px;
     font-family: 'TT Lakes';
@@ -59,18 +65,31 @@ a:hover > {
     Line-height:24px;
     font-weight: bold;
     color: #1B1C21;
-    text-decoration: none;
-    background-color: white;
-    border: none;
 }
 
-.manu__btn--anima {
+.aside__link {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left:25px;
+    font-weight: bold;
+    color: #1B1C21; 
+}
+
+.aside__btn {
+    background-color: white;
+    border:none;
+}
+
+
+
+.aside__btn--anima {
     opacity: 1;
     transition: 0.5s;
 }
 
 
-.manu__btn--active {
+.aside__link--active {
     border-left: 4px solid #41F6D7;
     margin-left: 0;
     padding-left:20px;
@@ -88,7 +107,7 @@ a:hover > {
     padding: 0;
 }
 
-.manu__btn--margin {
+.aside__btn--margin {
     margin:0px;
     margin-left: 20px;
 }
@@ -96,15 +115,16 @@ a:hover > {
 .contacts__mail {
     font-family: 'TT Lakes';
     font-size: 16px;
+    font-weight: 500;
     margin-left: 20px;
     margin-top: -5px;
     color: #1B1C21;
 }
 
 .contacts__phone {
-    font-family: 'TT Lakes Condensed';
+    font-family: 'TTLakes';
     font-size: 24px;
-    font-weight: bold;
+    font-weight:900;
     margin-left: 20px;
     margin-top:-15px;
     color: #1B1C21;
@@ -117,17 +137,34 @@ a:hover > {
     padding-bottom: 10px;
 }
 
+
+.aside__btn:hover {
+    cursor: pointer;
+}
+
+.aside__link--fitler:hover {
+    color:aqua;
+    transition: 0.5s;
+}
+
+.contacts__lang_el {
+   text-decoration: none;
+   background-color: white;
+   border:none;
+   font-family: 'TT Lakes';
+   font-size: 16px;
+   font-weight: bold;
+   color: #1B1C21;
+   margin: 0;
+   padding: 0;
+}
+
 .contacts__lang_el--active {
     color:#7E7E82;
 }
 
-.manu__btn:hover {
-    cursor: pointer;
-}
-
-.manu__btn--fitler:hover {
-    color:aqua;
-    transition: 0.5s;
+.contacts__lang_el:first-child {
+    margin-top:5x
 }
 
 
